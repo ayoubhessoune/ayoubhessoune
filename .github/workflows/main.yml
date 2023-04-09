@@ -20,7 +20,6 @@ jobs:
         uses: ridedott/create-snake@v0.4.0
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          snake_colors: ['#36CE5F', '#3E8ACB']
           file_type: 'svg'
           output_directory: './dist'
 
